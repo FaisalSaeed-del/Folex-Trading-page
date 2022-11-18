@@ -11,8 +11,8 @@ const CryptoExchange = () => {
   return (
     <div className="bg-[#1F084D]">
       <section className="container">
-        <div className="flex">
-          <div>
+        <div className="flex justify-center flex-wrap">
+          <div className="pt-20">
             <div className="folex-card max-w-lg justify-center py-10 px-6 flex gap-9 mb-5">
               <div className="self-center">
                 <img src={Folex1} alt="" />

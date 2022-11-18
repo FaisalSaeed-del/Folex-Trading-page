@@ -2,13 +2,13 @@ import React from "react";
 import BTC from "../../assets/images/btc.svg";
 import ETH from "../../assets/images/eth.svg";
 import ITC from "../../assets/images/itc.svg";
-import Left from "../../assets/images/left.png";
-import Right from "../../assets/images/right.png";
+import Mobile from "../../assets/images/mobile.png";
+
 const Hero = () => {
   return (
     <div className="bg-[#1F084D]">
       <section className="container">
-        <div className=" flex py-20 px-20 flex-wrap md:flex-nowrap sm:flex-wrap">
+        <div className=" flex py-20 px-20 flex-wrap justify-around">
           <div>
             <div className="max-w-[574px] mb-9">
               <h1 className="text-5xl font-black text-[#FFFFFF]">
@@ -54,13 +54,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="md:flex sm:hidden gradient-div">
-            <div className="relative left-28">
-              <img src={Left} alt="" width="100%" />
-            </div>
-            <div className="">
-              <img src={Right} alt="" width="100%" />
-            </div>
+          <div className="flex  gradient-div">
+            <img src={Mobile} alt="" className="w-full" />
           </div>
         </div>
       </section>
