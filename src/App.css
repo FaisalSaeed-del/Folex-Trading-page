@@ -13,3 +13,29 @@ body {
 .container {
   @apply max-w-[1440px] mx-auto p-4;
 }
+
+/* nav bar styling */
+.nav-bar-items ul > li {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.nav-bar-items ul > li:hover {
+  text-decoration: underline;
+  text-decoration-color: #f18140;
+  text-decoration-style: solid;
+}
+
+/* Z-index hero section */
+
+.Left {
+  z-index: -1;
+}
+
+.gradient-div {
+  background: linear-gradient(
+    165.66deg,
+    rgba(244, 145, 63, 0.2) 65.94%,
+    rgba(31, 8, 77, 0.2) 78.1%
+  );
+}
