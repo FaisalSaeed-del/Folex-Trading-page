@@ -11,12 +11,12 @@ const Hero = () => {
         <div className=" flex py-20 px-20 flex-wrap justify-around">
           <div>
             <div className="max-w-[574px] mb-9">
-              <h1 className="text-5xl font-black text-[#FFFFFF]">
+              <h1 className="md:text-5xl text-3xl font-black text-[#FFFFFF]">
                 Fastest and Easiest way to
               </h1>
             </div>
             <div className="max-w-[492px] mb-14">
-              <h1 className="text-[64px] text-[#FEC039] font-extrabold]">
+              <h1 className="md:text-[64px] text-3xl text-[#FEC039] font-extrabold]">
                 Buy, Sell & Trade
               </h1>
             </div>

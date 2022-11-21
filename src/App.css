@@ -28,17 +28,13 @@ body {
 
 /* Z-index hero section */
 
-.Left {
-  z-index: -1;
-}
-
-.gradient-div {
+/* .gradient-div {
   background: linear-gradient(
     165.66deg,
     rgba(244, 145, 63, 0.2) 65.94%,
     rgba(31, 8, 77, 0.2) 78.1%
   );
-}
+} */
 
 /* Folex-card */
 

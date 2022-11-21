@@ -81,17 +81,16 @@ const CryptoExchange = () => {
             </div>
             <div>
               <div className="flex flex-wrap px-10 mb-5">
-                <img
-                  width="full"
-                  className=" pt-20 Chart-card"
-                  src={Chart1}
-                  alt=""
-                />
+                <img className=" pt-20 Chart-card" src={Chart1} alt="" />
                 <img src={Chart2} alt="" />
               </div>
               <div className="flex flex-wrap">
-                <img width="full" src={Chart3} alt="" />
-                <img src={Chart4} alt="" />
+                <div>
+                  <img src={Chart3} alt="" />
+                </div>
+                <div>
+                  <img src={Chart4} alt="" />
+                </div>
               </div>
             </div>
           </div>
